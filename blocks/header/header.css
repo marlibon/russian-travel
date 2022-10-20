@@ -1,0 +1,13 @@
+.header {
+  width: 100%;
+  display: grid;
+  height: 52px;
+  grid-template-columns: minmax(min-content, 176px) max-content;
+  justify-content: space-between;
+  align-items: center;
+}
+@media screen and (max-width: 320px) {
+  .header {
+    height: 42px;
+  }
+}
