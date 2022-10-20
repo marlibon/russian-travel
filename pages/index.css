@@ -1,5 +1,5 @@
 /*  подключение шрифтов. Выяснить, куда их помещать по БЭМ */
-@import url(../vendor/fonts/inter.css);
+@import url(../vendor/fonts/inter.css); /* надо оставить только 400, 700, 900 */
 @import url(../vendor/normalize.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
