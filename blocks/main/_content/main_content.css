@@ -1,0 +1,17 @@
+.main_content {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 92px; /* отступ между рядами */
+
+}
+
+@media screen and (max-width: 768px) {
+  .main_content {
+    grid-row-gap: 48px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .main_content {
+    grid-row-gap: 64px;
+  }
+}

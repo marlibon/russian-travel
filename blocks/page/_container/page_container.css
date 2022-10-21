@@ -1,0 +1,21 @@
+.page_container {
+  font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased; /* сглаживание шрифта для браузеров chromium */
+  -moz-osx-font-smoothing: grayscale; /* сглаживание шрифта для браузеров mozilla */
+  -webkit-text-size-adjust: 100%; /* Подгонка размера текста */
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility; /* рендеринг шрифтов */
+  padding: 28px 48px 0 48px;
+
+}
+@media screen and (max-width: 768px) {
+  .main_content {
+    padding: 28px 24px 0 24px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .main_content {
+    padding: 16px 16px 0 16px;
+  }
+}
