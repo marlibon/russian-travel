@@ -1,0 +1,12 @@
+.lead {
+  max-width: 984px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+@media screen and (min-width: 960px) {
+  .lead {
+    padding: 0 48px 0 48px;
+  }
+}

@@ -2,12 +2,12 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-row-gap: 92px; /* отступ между рядами */
-
+  justify-items: center;
 }
 
 @media screen and (max-width: 768px) {
   .main_content {
-    grid-row-gap: 48px;
+    grid-row-gap: 88px;
   }
 }
 @media screen and (max-width: 320px) {

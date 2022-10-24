@@ -15,3 +15,13 @@
     line-height: 18px;
   }
 }
+
+@media screen and (max-width: 274px) {
+  .header__lang-link {
+    margin-right: 0;
+    font-size: 14px;
+    line-height: 14px;
+
+
+  }
+}
