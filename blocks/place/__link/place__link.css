@@ -3,5 +3,11 @@
   font-size: 18px;
   line-height: 22px;
   text-decoration-line: underline;
-  color: #FFFFFF;
+  color: #FFF;
+  transition: 0.5s;
+}
+
+.place__link:hover {
+  color: rgb(212, 207, 207);
+  transition: 0.5s;
 }

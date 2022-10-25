@@ -1,0 +1,22 @@
+.footer__link {
+  padding-right: 18px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  transition: 0.5s;
+}
+
+.footer__link:hover {
+  color: rgb(212, 207, 207);
+  transition: 0.5s;
+
+}
+@media screen and (max-width: 692px) {
+  .footer__link {
+    padding: 0 0 32px 0;
+    font-size: 24px;
+    line-height: 24px;
+  }
+}

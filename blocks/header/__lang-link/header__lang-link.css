@@ -5,23 +5,25 @@
   line-height: 24px;
   text-decoration: none;
   margin-right: 18px;
+  transition: 0.5s;
 }
 .header__lang-link:last-of-type {
   margin-right: 0;
 }
-@media screen and (max-width: 320px) {
+.header__lang-link:hover {
+  color: rgb(212, 207, 207);
+  transition: 0.5s;
+}
+@media screen and (max-width: 410px) {
   .header__lang-link {
     font-size: 18px;
     line-height: 18px;
   }
 }
-
 @media screen and (max-width: 274px) {
   .header__lang-link {
     margin-right: 0;
     font-size: 14px;
     line-height: 14px;
-
-
   }
 }
