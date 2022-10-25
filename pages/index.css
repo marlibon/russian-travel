@@ -38,9 +38,6 @@
 @import url('../blocks/place/__image/place__image.css');
 @import url('../blocks/place/__paragraph/place__paragraph.css');
 
-@import url('../blocks/content/content.css');
-@import url('../blocks/content/__section/content__section.css');
-
 @import url('../blocks/cover/cover.css');
 @import url('../blocks/cover/__item/cover__item.css');
 @import url('../blocks/cover/__subtitle/cover__subtitle.css');
