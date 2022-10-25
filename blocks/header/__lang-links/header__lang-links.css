@@ -1,9 +1,9 @@
-.header__lang_links {
+.header__lang-links {
   margin-top: 20px;
 }
 
 @media screen and (max-width: 320px) {
-.header__lang_links {
+.header__lang-links {
   margin-top: 25px;
 }
 }
