@@ -2,9 +2,17 @@
   max-width: 1280px;
   margin: 0 auto;
   background-color: #2A2C2F;
+  color: #fff;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased; /* сглаживание шрифта для браузеров chromium */
+  -moz-osx-font-smoothing: grayscale; /* сглаживание шрифта для браузеров mozilla */
+  -webkit-text-size-adjust: 100%; /* Подгонка размера текста */
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility; /* рендеринг шрифтов */
 }

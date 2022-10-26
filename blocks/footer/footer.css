@@ -23,3 +23,9 @@
     align-items: flex-start;
   }
 }
+
+@media screen and (max-width: 410px) {
+  .footer {
+    width: calc(100% - 2*16px);
+  }
+}

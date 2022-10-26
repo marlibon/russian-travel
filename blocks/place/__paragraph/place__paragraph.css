@@ -3,6 +3,21 @@
   padding: 0;
   font-weight: 400;
   font-size: 18px;
-  line-height: 163%;
+  line-height: 161%;
   color: #FFFFFF;
+}
+.place__paragraph:last-child {
+  margin: 0;
+}
+@media screen and (max-width: 790px) {
+  .place__paragraph {
+    font-size: 16px;
+    line-height: 163%;
+    }
+}
+
+@media screen and (max-width: 410px) {
+  .place__paragraph {
+    padding: 0 16px 0 16px;
+  }
 }
