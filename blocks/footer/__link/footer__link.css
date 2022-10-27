@@ -9,7 +9,7 @@
 }
 
 .footer__link:hover {
-  color: rgb(212, 207, 207);
+  opacity: 0.8;
   transition: 0.5s;
 
 }

@@ -11,7 +11,7 @@
   margin-right: 0;
 }
 .header__lang-link:hover {
-  color: rgb(212, 207, 207);
+  opacity: 0.8;
   transition: 0.5s;
 }
 @media screen and (max-width: 410px) {
